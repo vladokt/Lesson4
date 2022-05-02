@@ -19,7 +19,7 @@
                 Regex regex = new Regex(pattern);
                 if (regex.IsMatch(str) && int.TryParse(str,out itemsnumber) && itemsnumber > 1)
                 {
-                    Console.WriteLine("Number is Ok!");
+                    //Console.WriteLine("Number is Ok!");
 
                     int[] items = new int[itemsnumber];
 
@@ -49,7 +49,7 @@
                     }
                     else
                     {
-                        Console.WriteLine($"Max item is {maxitem}, nextone item is {nextitem}.");
+                        Console.WriteLine($"Max item is {maxitem}, next one item is {nextitem}.");
                     }
                 }
                 else
